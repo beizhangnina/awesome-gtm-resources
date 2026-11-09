@@ -52,6 +52,9 @@ Launchpad 的工作是帮创业者把产品推向市场。GTM 和 marketing 方�
 - [ai-marketing-skills](https://github.com/ericosiu/ai-marketing-skills) - Single Brain 团队开源的营销与销售 Claude Code skills，覆盖增长实验、outbound、SEO、内容运营和 CRO，是完整工作流而不只是 prompt。
 - [LMTY Competitive Skills](https://github.com/LMTYdotcom/skills) - 面向竞争型 GTM 的 agent skills，用来做竞品简报、定位与 messaging 检查、定价与发布评审、battlecard 和 win-loss 分析。
 - [dbskill](https://github.com/dontbesilent2025/dbskill) - dontbesilent 的中文商业诊断 skills，共 34 个，帮你判断生意卡在哪、找同行对标、做内容方案和检查视频标题封面（可免费使用，禁止转售打包）。
+- [aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) - 120 个营销 skills，覆盖叙事、SEO/GEO、社媒、邮件、投放、达人合作和发布七个方向，每个方向配质量审核关卡，可装成插件或 Grok Bot 上的 8 人 AI 营销团队。
+- [marketing-skills](https://github.com/irinabuht12-oss/marketing-skills) - 49 个免费营销 Claude skills，重点在 Google Ads、Meta Ads 投放审计、SEO 和 AI 可见度，可配 Ryze 的广告 MCP 直接读账户数据（数据走 Ryze 托管连接器）。
+- [NotFair Plugin](https://github.com/nowork-studio/notfair-plugin) - 48 个 SEO / GEO 与投放 skills，可接 GA4、Search Console 以及 Google、Meta、LinkedIn、TikTok 等广告账户，改动需你明确批准后才执行。
 
 <a id="content-seo-geo"></a>
 ## 内容与 SEO / GEO（Content, SEO & GEO）
@@ -71,6 +74,8 @@ Launchpad 的工作是帮创业者把产品推向市场。GTM 和 marketing 方�
 - [NiubiGEO](https://github.com/Albert-Weasker/niubigeo) - 开源、可自部署的 AI 品牌可见度与竞品报告工具：输入域名，对比多个模型的原始回答和引用来源，还能重复测试、定时监控（模型 API 费用自理）。
 - [GEOInflow](https://github.com/yaojingang/GEOInflow) - GEOFlow 作者团队开源的自部署 GEO 流量分析，追踪哪些 AI 爬虫来过、抓了哪些页面、AI 搜索带来多少访问和转化。
 - [backlink_skills](https://github.com/flaqai/backlink_skills) - Flaq AI 团队开源的外链提交与 SEO 写作 Codex skills，附 743 个免费外链渠道清单，按授权逐站提交，不是一键群发。
+- [claude-blog](https://github.com/AgriciDaniel/claude-blog) - claude-seo 作者做的 Claude Code 博客写作 skill，先查最新资料，写出同时照顾 Google 和 AI 回答的文章，独立评审打分过关后才交付。
+- [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) - 把 SEO 代运营的活交给 agent 的 Claude Code skill，分 SEO、AEO、GEO、LLMO 和 Naver 五条线审计、修复并复测，作者用它在自家站做到 30 天 154 万搜索曝光。
 
 <a id="social-video"></a>
 ## 社媒分发与视频（Social Distribution & Video）
@@ -92,6 +97,7 @@ Launchpad 的工作是帮创业者把产品推向市场。GTM 和 marketing 方�
 - [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) - 一张照片加一句话生成数字人口播视频的 agent skill，适合直播带货广告和产品讲解（视频生成依赖 Renoise MCP 积分）。
 - [OpenCreator](https://github.com/krillinai/OpenCreator) - 原 KrillinAI，基于 Codex 的开源创作者工作台，一处完成视频下载与翻译配音、图片 / 视频生成、口播和社媒文案，适合做 YouTube、TikTok、Instagram 内容。
 - [video-use](https://github.com/browser-use/video-use) - Browser Use 团队开源，让 Claude Code / Codex 直接剪视频：自动去口癖和空白、调色、烧字幕、加动画，丢进原始素材就能出成片。
+- [BrightBean Studio](https://github.com/brightbeanxyz/brightbean-studio) - 开源可自部署的社媒管理平台，适合代理商一处管多个客户账号，支持 10 多个平台排期发布、审批流和客户协作，可替代 Sendible / SocialPilot。
 
 
 <a id="outbound-sales"></a>
