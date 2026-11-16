@@ -52,6 +52,7 @@ Launchpad 的工作是帮创业者把产品推向市场。GTM 和 marketing 方�
 - [ai-marketing-skills](https://github.com/ericosiu/ai-marketing-skills) - Single Brain 团队开源的营销与销售 Claude Code skills，覆盖增长实验、outbound、SEO、内容运营和 CRO，是完整工作流而不只是 prompt。
 - [LMTY Competitive Skills](https://github.com/LMTYdotcom/skills) - 面向竞争型 GTM 的 agent skills，用来做竞品简报、定位与 messaging 检查、定价与发布评审、battlecard 和 win-loss 分析。
 - [dbskill](https://github.com/dontbesilent2025/dbskill) - dontbesilent 的中文商业诊断 skills，共 34 个，帮你判断生意卡在哪、找同行对标、做内容方案和检查视频标题封面（可免费使用，禁止转售打包）。
+- [saas-growth-agents](https://github.com/Pluviobyte/saas-growth-agents) - 出海 SaaS 作者开源的每日增长 SOP：新词雷达、关键词找竞站、竞品外链、目录站提交和社媒拆解，脚本负责采集打分，agent 负责判断，花钱和对外发送需你确认（部分数据走 AIsa 按次付费）。
 
 <a id="content-seo-geo"></a>
 ## 内容与 SEO / GEO（Content, SEO & GEO）
@@ -71,6 +72,7 @@ Launchpad 的工作是帮创业者把产品推向市场。GTM 和 marketing 方�
 - [NiubiGEO](https://github.com/Albert-Weasker/niubigeo) - 开源、可自部署的 AI 品牌可见度与竞品报告工具：输入域名，对比多个模型的原始回答和引用来源，还能重复测试、定时监控（模型 API 费用自理）。
 - [GEOInflow](https://github.com/yaojingang/GEOInflow) - GEOFlow 作者团队开源的自部署 GEO 流量分析，追踪哪些 AI 爬虫来过、抓了哪些页面、AI 搜索带来多少访问和转化。
 - [backlink_skills](https://github.com/flaqai/backlink_skills) - Flaq AI 团队开源的外链提交与 SEO 写作 Codex skills，附 743 个免费外链渠道清单，按授权逐站提交，不是一键群发。
+- [GEO Optimizer](https://github.com/Auriti-Labs/geo-optimizer-skill) - 开源 AEO / GEO 体检工具（GeoReady 背后的引擎），一条命令给网站打 0–100 分，看 ChatGPT、Perplexity、Gemini 和 Google AI 概览能否抓取并引用你，再给出整改清单，支持 CLI 和 MCP。
 
 <a id="social-video"></a>
 ## 社媒分发与视频（Social Distribution & Video）
@@ -92,6 +94,8 @@ Launchpad 的工作是帮创业者把产品推向市场。GTM 和 marketing 方�
 - [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) - 一张照片加一句话生成数字人口播视频的 agent skill，适合直播带货广告和产品讲解（视频生成依赖 Renoise MCP 积分）。
 - [OpenCreator](https://github.com/krillinai/OpenCreator) - 原 KrillinAI，基于 Codex 的开源创作者工作台，一处完成视频下载与翻译配音、图片 / 视频生成、口播和社媒文案，适合做 YouTube、TikTok、Instagram 内容。
 - [video-use](https://github.com/browser-use/video-use) - Browser Use 团队开源，让 Claude Code / Codex 直接剪视频：自动去口癖和空白、调色、烧字幕、加动画，丢进原始素材就能出成片。
+- [Social Media Agent](https://github.com/langchain-ai/social-media-agent) - LangChain 官方开源的社媒 agent，丢一个链接就生成 X 和 LinkedIn 帖子，人工审核后再排期发布。
+- [Social Media Skills（106 个）](https://github.com/social-media-skills/skills) - 106 个社媒运营 skills，覆盖品牌语气、内容日历、LinkedIn 写作、Reels 脚本、平台增长、发布和数据分析，适用于 Claude、Cursor 等 agent。
 
 
 <a id="outbound-sales"></a>
@@ -110,16 +114,20 @@ Launchpad 的工作是帮创业者把产品推向市场。GTM 和 marketing 方�
 - [Horizon](https://github.com/Thysrael/Horizon) - AI 个人新闻雷达，生成中英双语每日简报。
 - [last30days-skill](https://github.com/mvanhorn/last30days-skill) - 调研任意话题最近 30 天在 Reddit、X、YouTube、HN 等平台的讨论，并汇总成一份报告的 agent skill。
 - [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) - 社媒调研 agent skills，用来找爆款帖子、挖评论、拆解竞品和查广告库（需要 ScrapeCreators API key）。
+- [new-term-radar](https://github.com/zhuyansen/new-term-radar) - 每日 AI 新词雷达，从 X、Hugging Face、GitHub 和站点地图里抓刚冒头的新模型、新产品名，赶在关键词工具收录前抢先布局内容，附 skills 和 MCP。
 
 <a id="agents-mcp"></a>
 ## Agent 基础设施与 MCP（Agent Infra & MCP）
 
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - 让 agent 读取和搜索 Twitter、Reddit、YouTube、GitHub 等平台的命令行工具，无需 API 费用。
+- [mcp-gsc](https://github.com/AminForou/mcp-gsc) - 把 Google Search Console 接进 Claude 等 AI 助手的 MCP，用自然语言分析搜索表现、检查 URL 索引状态和管理站点地图。
+- [Apify MCP Server](https://github.com/apify/apify-mcp-server) - Apify 官方 MCP，让 agent 调用数千个现成爬虫，抓社媒、搜索结果、地图商家和电商数据，适合找线索和做竞品调研（按 Apify 用量计费）。
 
 <a id="related-lists"></a>
 ## 相关清单（Related Lists）
 
 - [awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot) - Grok Bot 相关资源的中英双语精选清单。
+- [1000UserGuide](https://github.com/naxiaoduo/1000UserGuide) - 帮独立开发者找到前 1000 个用户的推广渠道清单，整理了 300 多个国内外渠道，包括 Product Hunt、出海目录站和 AI 导航站。
 
 <a id="contributing"></a>
 ## 参与贡献（Contributing）
