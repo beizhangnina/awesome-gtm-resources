@@ -52,6 +52,7 @@ Launchpad 的工作是帮创业者把产品推向市场。GTM 和 marketing 方�
 - [ai-marketing-skills](https://github.com/ericosiu/ai-marketing-skills) - Single Brain 团队开源的营销与销售 Claude Code skills，覆盖增长实验、outbound、SEO、内容运营和 CRO，是完整工作流而不只是 prompt。
 - [LMTY Competitive Skills](https://github.com/LMTYdotcom/skills) - 面向竞争型 GTM 的 agent skills，用来做竞品简报、定位与 messaging 检查、定价与发布评审、battlecard 和 win-loss 分析。
 - [dbskill](https://github.com/dontbesilent2025/dbskill) - dontbesilent 的中文商业诊断 skills，共 34 个，帮你判断生意卡在哪、找同行对标、做内容方案和检查视频标题封面（可免费使用，禁止转售打包）。
+- [leadsets-skills](https://github.com/leadsets/leadsets-skills) - 50 个开源 GTM skills，用于潜客名单、联系人富集与验证、客户研究和 CRM 清洗，提供 Unlimited B2B Contact Data，适用于 Claude、ChatGPT 和 Cursor。
 
 <a id="content-seo-geo"></a>
 ## 内容与 SEO / GEO（Content, SEO & GEO）
